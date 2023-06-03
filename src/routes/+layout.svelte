@@ -5,4 +5,6 @@
 </script>
 
 <Header />
-<slot />
+<main class="p-4">
+	<slot />
+</main>
