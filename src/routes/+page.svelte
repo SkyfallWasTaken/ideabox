@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+	<title>Home - IdeaBox</title>
+</svelte:head>
+
+<div class="mt-4 text-center">
+	<h1 class="text-4xl font-bold mb-1">Posts</h1>
+	<p>Cool things the IdeaBox community have done</p>
+</div>

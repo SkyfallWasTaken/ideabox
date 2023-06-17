@@ -4,7 +4,8 @@
 
 <div class="border-b">
 	<div class="flex h-16 items-center px-4">
-		<nav class="flex items-center space-x-4 lg:space-x-6 mx-6">
+		<p class="hidden sm:block sm:show">IdeaBox</p>
+		<nav class="flex items-center space-x-4 lg:space-x-6 sm:mx-4">
 			<NavItem href="/">Posts</NavItem>
 			<NavItem href="/me">Profile</NavItem>
 		</nav>
@@ -16,8 +17,8 @@
 					placeholder="Search..."
 				/>
 			</div>
-			<span class="relative flex h-10 shrink-0 overflow-hidden rounded-full w-8"
-				><img src="/avatars/01.png" alt="@shadcn" class="aspect-square h-full w-full" />
+			<span class="relative flex shrink-0 w-9 aspect-square overflow-hidden rounded-full"
+				><img src="https://api.dicebear.com/6.x/thumbs/png?seed=Hypex&size=48" alt="@hypex" />
 			</span>
 		</div>
 	</div>
