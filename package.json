@@ -6,7 +6,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "update-types": "npx supabase gen types typescript --project-id \"$PROJECT_REF\" > ./src/DatabaseDefinitions.ts",
+    "update-types": "supabase gen types typescript --project-id \"$PROJECT_REF\" > ./src/DatabaseDefinitions.ts",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
