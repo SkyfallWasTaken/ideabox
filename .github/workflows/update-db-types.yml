@@ -28,7 +28,7 @@ jobs:
       - name: Install Supabase CLI
         run: /home/linuxbrew/.linuxbrew/bin/brew install supabase/tap/supabase
       - name: Run type updater
-        run: bun run supdate-types
+        run: bun run update-types
       - name: Check for file changes
         id: git_status
         run: |
