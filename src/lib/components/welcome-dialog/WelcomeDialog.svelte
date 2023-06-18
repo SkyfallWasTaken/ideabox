@@ -5,10 +5,10 @@
 		DialogDescription,
 		DialogHeader,
 		DialogTitle
-	} from '$components/ui/dialog';
+	} from '$ui/dialog';
 
 	import { Bug } from 'lucide-svelte';
-	import { Alert, AlertDescription, AlertTitle } from '$components/ui/alert';
+	import { Alert, AlertDescription, AlertTitle } from '$ui/alert';
 </script>
 
 <Dialog open={true}>

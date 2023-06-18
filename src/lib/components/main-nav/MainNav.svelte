@@ -1,5 +1,6 @@
 <script>
 	import NavItem from './NavItem.svelte';
+	import {Button} from "$ui/button"
 </script>
 
 <div class="border-b">
@@ -17,9 +18,9 @@
 					placeholder="Search..."
 				/>
 			</div>
-			<span class="relative flex shrink-0 w-9 aspect-square overflow-hidden rounded-full"
-				><img src="https://api.dicebear.com/6.x/thumbs/png?seed=Hypex&size=48" alt="@hypex" />
-			</span>
+			<div class="relative flex">
+				<Button href="/auth/handoff" size="sm" variant="outline">Sign in</Button>
+			</div>
 		</div>
 	</div>
 </div>
